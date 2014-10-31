@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -167,7 +167,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -228,19 +228,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 98.0, 232.0, 90.0, 20.0 ],
 									"text" : "r /layerNumber"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 170.0, 212.0, 100.0, 20.0 ],
-									"text" : "print ##"
 								}
 
 							}
@@ -408,7 +395,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "list", "list", "list" ],
 									"patching_rect" : [ 28.0, 50.0, 481.0, 21.0 ],
 									"text" : "OSC-route /layer /layerNumber"
 								}
@@ -422,7 +409,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "list", "list", "list" ],
 									"patching_rect" : [ 126.125, 116.957031, 265.0, 20.0 ],
 									"text" : "OSC-route /time /speed"
 								}
@@ -436,7 +423,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "list", "list", "list" ],
 									"patching_rect" : [ 28.0, 88.0, 215.25, 20.0 ],
 									"text" : "OSC-route /opacity /media"
 								}
@@ -505,7 +492,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "list", "list" ],
 									"patching_rect" : [ 28.0, 434.0, 134.0, 21.0 ],
 									"text" : "OSC-route /millumin"
 								}
@@ -684,15 +671,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -843,7 +821,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -895,7 +873,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1225,7 +1203,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -2157,7 +2135,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -2739,7 +2717,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -3650,7 +3628,6 @@
 					"presentation_rect" : [ 474.0, 102.0, 200.0, 160.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"setstyle" : 1,
-					"size" : 10,
 					"spacing" : 1
 				}
 
@@ -3671,7 +3648,6 @@
 					"presentation_rect" : [ 246.75, 102.0, 200.0, 160.0 ],
 					"setminmax" : [ 0.0, 500.0 ],
 					"setstyle" : 1,
-					"size" : 10,
 					"spacing" : 1
 				}
 
@@ -3692,7 +3668,6 @@
 					"presentation_rect" : [ 31.0, 102.0, 200.0, 160.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
 					"spacing" : 1
 				}
 
@@ -3849,7 +3824,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "layerparam.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/millumin-control",
+				"bootpath" : "/Users/reno/Documents/GITs/millumin-control",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
